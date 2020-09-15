@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "endless-coding"
+    }
+  },
+  "defaultProject": "endless-coding",
+  "cli": {
+    "analytics": "ece4a32e-a582-41ff-82e4-ab945986ac76"
+  }
 }

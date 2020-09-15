@@ -1,0 +1,96 @@
+
+
+
+.btn-cyan {
+  font-family: Raleway-SemiBold;
+  font-size: 15px;
+  color: black;
+  letter-spacing: 1.5px;
+  border: 2px solid  #47E4C2;
+  border-radius: 80px;
+  background: #47E4C2;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+
+.btn-cyan:hover {
+  color: #FFF;
+  background: rgb(0,139,139);
+  border: 2px solid rgb(0,139,139);
+}
+.row {
+  display: flex;
+}
+.row-bottom{
+  position:absolute;
+  padding-left: 10%;
+  bottom:15%;  
+}
+
+/* Create two equal columns that sits next to each other */
+
+.center{
+  text-align:center;
+  color: black;
+  margin: 0;
+  padding:10px;
+}
+.container{
+  background-color: #F5F5F5	;
+}
+.image{
+  min-height: 100vh;
+    background: url("../assets/Images/photo-couch_2x.jpg");
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+    left:0px;
+    top:0px;
+}
+
+.toolbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color:black;
+  color: white;
+  font-weight: 600;
+  padding-left: 10%;
+}
+
+.toolbar img {
+  margin: 0 6px;
+}
+h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 8px 0;
+    color:blanchedalmond;
+    text-align: left;
+    font-weight: 100;
+    font-family: 'Lato';
+  }
+
+  p {
+    margin: 0;
+  }
+
+  .spacer {
+    flex: 1;
+  }
+
+  .content {
+    display: flex;
+    width:100%;
+    flex-direction: column;
+    align-items: baseline;
+  }
+
+
