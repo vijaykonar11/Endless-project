@@ -2,6 +2,7 @@
 <div class="toolbar" role="banner">
 
   <img width="120" height="60" src="../assets/Images/logo-endless.svg">
+  <p *ngIf = "noInternetConnection"> Offline Mode</p>
 
 </div>
 <div class="content" role="main" [ngStyle]="{'height':howItWorks.length>0 ? '90vh' : 'auto' }">
